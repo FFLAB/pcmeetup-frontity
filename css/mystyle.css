@@ -1,3 +1,4 @@
+
 .red{color: #ff2c2d !important;}
 
   .green {
@@ -167,3 +168,8 @@ figure{
     background-repeat: no-repeat;
     background-size: cover;
   } */
+  .mzero{
+    margin: 0 !important;
+    }
+
+ 
