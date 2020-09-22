@@ -171,5 +171,8 @@ figure{
   .mzero{
     margin: 0 !important;
     }
+.force-color{
+  color: #fff !important;
+}
 
  
