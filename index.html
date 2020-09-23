@@ -82,27 +82,50 @@ Il sito WordPress fornirà i suoi contenuti tramite le REST API, e il frontend c
 	</section>
 	<!-- 7 -->
 	<section>
-		<p>a questo punto sarà attivo il vostro sito in locale, configurato nel file <a href="https://docs.frontity.org/getting-started/connecting-to-wordpress">frontity.settings.js</a> </p>
+		<p>a questo punto sarà attivo il sito demo in locale, configurato nel file <a href="https://docs.frontity.org/getting-started/connecting-to-wordpress">frontity.settings.js</a> </p>
 		<pre class="force-color"><code data-trim data-line-numbers="1-2">
             api: "https://test.frontity.io/wp-json/"
 		</code></pre>
-		<img src="img/serv_front.png" width="400" alt="">						
+		<img src="img/front-demo1.png" width="700" alt="">						
 	</section>
 	<!-- 8 BAZINGA-->
 	<section>
-		<p>ora sarà sufficiente cambiare il nome del sito demo con il vostro, e lo vedrete tramite il tema React di default</p>
+		<p>ora sarà sufficiente cambiare il nome del sito demo con il vostro</p>
 		<pre class="force-color"><code data-trim data-line-numbers="1-2">
             api: "https://ILMIOSITOWORDPRESS.IT/wp-json/"
-		</code></pre>	
-		<p class="fragment">
-			<img src="https://media.giphy.com/media/JrGYQZWou5Z51vNRob/giphy.gif" alt=""></p>				
+		</code></pre>
+			<img src="img/front-demo2.png" width="700" alt="">	
+	</section>
+	<section>
+		<img src="https://media.giphy.com/media/JrGYQZWou5Z51vNRob/giphy.gif" alt="">
 	</section>
 
 		<!-- 9 -->
 		<section>
 			<h3 class="blue">I TEMI</h3>
-			<p>I <a href="https://docs.frontity.org/frontity-themes">temi</a> vanno scritti con linguaggio JavaScript - React, niente template PHP, e ce ne sono alcuni già pronti, il default <a href="https://docs.frontity.org/frontity-themes/frontity-mars-theme">Mars-theme</a>  e Twenty-Twenty che ha come modello il suo omonimo Wordpress.</p>
+			<p>I <a href="https://docs.frontity.org/frontity-themes">temi</a> vanno scritti con linguaggio JavaScript - React, niente template PHP, e ce ne sono alcuni già pronti, il default <a href="https://docs.frontity.org/frontity-themes/frontity-mars-theme">Mars-theme</a> e <a href="https://docs.frontity.org/frontity-themes/frontity-twentytwenty-theme">Twenty-Twenty </a> che ha come modello il suo omonimo Wordpress.</p>
 		</section>
+
+		<section>
+			<h3 class="blue">IL TEMA di FFLAB.DEV</h3>
+			<p>Sul mio blog <a href="https://fflab.info/blog">fflab.info</a> utilizzo Twenty-Twenty personalizzato con un tema child. Per <a href="https://fflab.dev">fflab.dev</a> con Frontity ho cercato di riprodurre le personalizzazioni di stile. </p>
+		</section>
+
+		<section>
+			<h3 class="blue">Interventi sul tema</h1>
+			<p><small>Questa è un'aggiunta fatta al file <br>/packages/twentytwenty-theme/src/components/styles/global-styles.js<br> per i colori di header e footer</small></p>
+			<pre><code class="css" data-trim data-line-numbers="1-6">
+				#site-header,
+				.footer-nav-widgets-wrapper,
+				#site-footer{
+				  background-color: #a00e05;
+				  color: rgb(255, 255, 255); 
+			  }
+			</code></pre>						
+		</section>
+
+	
+
 		<section>
 			<h3 class="blue">SERVER FRONTITY</h3>
 			<p><img src="img/schema3.png" alt=""></p>
