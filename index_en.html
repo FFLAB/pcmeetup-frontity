@@ -6,6 +6,8 @@
 
 		<title>Frontity</title>
 
+		<!-- Versione in italiano -->
+
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
@@ -21,87 +23,203 @@
 				<!-- 1 -->
 				<section>
 					<h1 class="red">FRONTITY</h1>
-					<h3>easy way from WordPress to React</h3>
+					<h3>Easy way from WordPress to React</h3>
 					<p>
-						<small>Di <a href="https://scuola.mohole.it">Francesco Riggio</a></small>
+						<small>by <a href="https://scuola.mohole.it">Francesco Riggio</a></small>
 					</p>
-						<img class="wpmi" src="img/pcmeetup.jpg" alt="pcmeetup">							
-			</section>
-
-		
-		<!-- 2 -->
-		<section>
-			<div class="myRow">
-				<div class="myCol">
-					<h2 class="red">&#x1f44b; Hello</h2>
-					<img class="gif" src="img/bass1.gif" alt="">
-				</div>
-				<div class="myCol">
-				<p class="fragment fade-left">I'm a front-end developer since 2001</p>
-				<p class="fragment fade-left">co-organizer Piacenza WordPress Meetup</p>
-				<p class="fragment fade-left resetFont">Web teacher & IT specialist at <a href="https://scuola.mohole.it">Scuola MOHOLE</a> Milano, Italy since 2014</p>
-				<p class="fragment fade-left">&#128054; I have two dachsunds &#128054;</p>
-				<p class="fragment fade-left red">I am NOT a good JavaScript developer!</p>
-				</div>
-			</div>				
-		</section>
-
-		<!-- 3 -->
-		<section>
-			<h1 class="blue">FRONTITY</h1>
-			<p><a href="https://frontity.org/">Frontity</a> è un framework open source. <br>Realizza un React-based frontend per un sito WordPress headless.
-Il sito WordPress fornirà i suoi contenuti tramite le REST API, e il frontend creato con Frontity li renderà disponibili come una <a href="https://en.wikipedia.org/wiki/Single-page_application">SPA (Single Page Application)</a>  configurabile e stilizzabile..
-			</p>							
-	</section>
-
-	<!-- 4 -->
-	<section>
-			<p class="mzero"><img class="mzero" src="img/schema1.png" alt=""></p>
-			<p class="fragment fade-left mzero"><img class="mzero" src="img/schema2.png" alt=""></p>
-			<p class="fragment fade-left mzero"><img class="mzero" src="img/schema3.png" alt=""></p>								
-	</section>
-
-	<!-- 5 -->
-	<section>
-		<h3>SERVER FRONTITY</h3>
-		<p><img src="img/schema3.png" alt=""></p>
-		<p>Possiamo installare Frontity sul nostro computer per provare, ma per pubblicarlo serve un ambiente JavaScript server-side.</p>								
-	</section>
-
-		<!-- 6 -->
-		<section>
-			<h3>SERVER FRONTITY</h3>
-			<p><img src="img/vercel.png" width="450" alt=""></p>
-			<p>Io mi sono appoggiato a <a href="https://vercel.com/">Vercel</a>  che mi ha fatto da hosting gratuito e ho acquistato solo il dominio.</p>
-											
-		</section>
-		<!-- 7 -->
-		<section>
-		
-			</section>
-		
-	</section>
-
+					<img class="wpmi"
+						src="img/pcmeetup.jpg"
+						alt="pcmeetup"
+						width="100">
+						<p>
+							<small><a href="index.html">vai alla versione Italiana &#127470;&#127481;</a></small>
+						</p>
+						
+				</section>
 	
-
-<!-- FINAL -->
-
-<section>
-
-</section>
-
-
-
-
-
-
-
-
-
-
+	
+				<!-- 2 -->
+				<section>
+					<div class="myRow">
+						<div class="myCol">
+							<h2 class="red">&#x1f44b; Hello!</h2>
+							<img class="gif"
+								src="img/bass1.gif"
+								alt="">
+						</div>
+						<div class="myCol">
+							<p class="fragment fade-left">I'm a front-end developer since 2001</p>
+							<p class="fragment fade-left">Co-organizer of Piacenza WordPress Meetup</p>
+							<p class="fragment fade-left resetFont">Teacher & IT specialist at <a
+									href="https://scuola.mohole.it">Scuola MOHOLE</a> Milano, since 2014</p>
+							<p class="fragment fade-left">&#128054; I have two dachsunds &#128054;</p>
+							<p class="fragment fade-left red">I'm NOT so good with JavaScript!</p>
+						</div>
+					</div>
+				</section>
+	
+				<!-- 3 -->
+				<section>
+					<h1 class="blue">FRONTITY</h1>
+					<p><a href="https://frontity.org/">Frontity</a> is a open source framework <br>to create websites using WordPress and React
+						with REST API, as a <a href="https://en.wikipedia.org/wiki/Single-page_application">SPA
+							(Single Page Application).</a>
+					</p>
+				</section>
+	
+				<!-- 4 -->
+				<section>
+					<p class="mzero"><img class="mzero"
+							src="img/schema1.png"
+							alt=""></p>
+					<p class="fragment fade-left mzero"><img class="mzero"
+							src="img/schema2.png"
+							alt=""></p>
+					<p class="fragment fade-left mzero"><img class="mzero"
+							src="img/schema3.png"
+							alt=""></p>
+				</section>
+	
+	
+				<!-- 5 -->
+				<section>
+					<h1 class="blue">Local setup</h1>
+					<p>I've started from the <a href="https://docs.frontity.org/getting-started">Getting Started</a> ,
+						checking to have all that needs in my computer (eg node.js) and installing with CLI. </p>
+					<pre><code class="css" data-trim data-line-numbers="1-2">
+					npx frontity create my-app
+				</code></pre>
+				</section>
+				<!-- 6 -->
+				<section>
+					<p>This command create a directory called as you want, my-app in this case, with all the necessary files for the project, then we compile for an internal node server with the command: </p>
+					<pre><code class="css" data-trim data-line-numbers="1-2">
+					cd my-app
+					npx frontity dev
+				</code></pre>
+				</section>
+				<!-- 7 -->
+				<section>
+					<p>the demo website will start in localhost, with the settings file <a
+							href="https://docs.frontity.org/getting-started/connecting-to-wordpress">frontity.settings.js</a>
+							configured like this</p>
+					<pre class="force-color"><code data-trim data-line-numbers="1-2">
+	            api: "https://test.frontity.io/wp-json/"
+			</code></pre>
+					<img src="img/front-demo1.png"
+						width="700"
+						alt="">
+				</section>
+				<!-- 8 BAZINGA-->
+				<section>
+					<p>now you have only to change the name of the demo website with the one you want!</p>
+					<pre class="force-color"><code data-trim data-line-numbers="1-2">
+	            api: "https://MY-WORDPRESS-WEBSITE.COM/wp-json/"
+			</code></pre>
+					<img src="img/front-demo2.png"
+						width="700"
+						alt="">
+				</section>
+				<section>
+					<img src="https://media.giphy.com/media/JrGYQZWou5Z51vNRob/giphy.gif"
+						alt="">
+				</section>
+	
+				<!-- 9 -->
+				<section>
+					<h3 class="blue">THE THEMES</h3>
+					<p>The <a href="https://docs.frontity.org/frontity-themes">themes</a> are written in JavaScript - React, no PHP templates, and there are some ready to use, the default <a
+							href="https://docs.frontity.org/frontity-themes/frontity-mars-theme">Mars-theme</a> and <a
+							href="https://docs.frontity.org/frontity-themes/frontity-twentytwenty-theme">Twenty-Twenty </a>
+						very similar to the WordPress PHP theme with the same name.</p>
+				</section>
+	
+				<section>
+					<h3 class="blue">THE THEME OF FFLAB.DEV</h3>
+					<p>For my blog <a href="https://fflab.info/blog">fflab.info</a> I use a custom (child theme) Twenty-Twenty. For <a href="https://fflab.dev">fflab.dev</a> with Frontity I tried to repeat that style customizations. </p>
+				</section>
+	
+				<section>
+					<h3 class="blue">Actions on the theme</h1>
+						<p><small>This is some code added by me:
+								<br>/packages/twentytwenty-theme/src/components/styles/global-styles.js<br> for the colors of								header and footer</small></p>
+						<pre><code class="css" data-trim data-line-numbers="1-6">
+					#site-header,
+					.footer-nav-widgets-wrapper,
+					#site-footer{
+					  background-color: #a00e05;
+					  color: rgb(255, 255, 255); 
+				  }
+				</code></pre>
+				</section>
+	
+	
+	
+				<section>
+					<h3 class="blue">SERVER FRONTITY</h3>
+					<p><img src="img/schema3.png"
+							alt=""></p>
+					<p>Ok, we can install Frontity on our computer just for test, but to publish it we need a server with server-side JavaScript.</p>
+				</section>
+	
+				<!-- 10 -->
+				<section>
+					<h3 class="blue">SERVER FRONTITY</h3>
+					<p><img src="img/vercel.png"
+							width="450"
+							alt=""></p>
+					<p>I've used <a href="https://vercel.com/">Vercel</a> as free hosting and I bought a domain too (I like .dev name!).</p>
+	
+				</section>
+	
+				<!-- 11 -->
+				<section>
+					<h3 class="blue">Vercel</h3>
+					<p>Vercel have a CLI to install a Frontity application.
+						<br>After a free registration in Vercel follow <a
+							href="https://docs.frontity.org/deployment/deploy-using-vercel">this documentation</a></p>
+					<img src="img/doc-vercel.png"
+						alt="">
+				</section>
+				<!-- 12 -->
+				<section>
+					<h3 class="blue">My Vercel dashborad</h3>
+					<p>Fast tour in my <a href="https://vercel.com/">Vercel</a> dashboard</p>
+				</section>
+				<!-- 13 -->
+				<section>
+					<h3 class="blue">Compare FFLAB.INFO e FFLAB.DEV</h3>
+					<img src="img/compare.png"
+						alt="">
+	
+				</section>
+	
+	
+	
+				<!-- FINAL SLIDES -->
+	
+				<section>
+					<h3 class="blue">My TO DO LIST</h3>
+					<p>SECURITY: limit REST API access to the node server or exclude /user</p>
+					<p>THEME: create a personal theme</p>
+					<p>ADD-ONs: custom post type and widgets</p>
+				</section>
+				<section>
+	
+					<img src="img/grazie-coppuu.png"
+						width="540"
+						alt="">
+					<p><small>Web slides powered by <a href="https://revealjs.com/">Reveal.js</a> | <a
+								href="https://www.meetup.com/it-IT/Piacenza-WordPress-Meetup"></a>Piacenza WordPress Meetup
+							2020</p>
+					<p>See my post about Frontity (italian) here <a
+							href="https://www.fflab.info/blog/2020/07/24/fflab-dev-powered-by-frontity/">FFLAB</a></p>
+					</small>
+	
+				</section>
 			</div>
 		</div>
-
+	
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
@@ -114,8 +232,9 @@ Il sito WordPress fornirà i suoi contenuti tramite le REST API, e il frontend c
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
 			});
 		</script>
 	</body>
-</html>
+	
+	</html>
